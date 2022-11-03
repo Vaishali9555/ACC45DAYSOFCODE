@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+     int t ;
+     cin>>t;
+     while (t--)
+     {
+         int x,y,p,q;
+         cin>>x>>y;
+         p=x*2;
+         q=y*5;
+         if(p==q)
+            cout<<"either\n";
+         else if(p>q)
+            cout<<"chocolate\n";
+         else if(p<q)
+             cout<<"candy\n";
+     }
+        
+	return 0;
+}
