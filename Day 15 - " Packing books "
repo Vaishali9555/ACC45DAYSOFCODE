@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int x,y,z,n,r,d;
+	    cin>>x>>y>>z;
+	    n=1;
+	    d=y/z;
+	    r=y%z;
+	    if(r==0)
+	    cout<<x*d<<endl;
+	    else
+	    cout<<x*(d+1)<<endl;
+	    }
+	return 0;
+}
