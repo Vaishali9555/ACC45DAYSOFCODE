@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while (t--)
+	{
+	    int n,a,i,k;
+	    string res;
+	    cin>>n>>k;
+	    for (i=0;i<n;i++)
+	    {
+	        cin>>a;
+            if(a<=k){
+            res+="1";
+            k=k-a;
+            }
+            else
+            res+='0';
+            
+        }
+	    cout<<res<<endl;
+	    
+	}
+	return 0;
+}
