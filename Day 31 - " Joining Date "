@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	 
+	int n,k;
+	cin>>n>>k;
+	if((n<=5) || (k==n))
+	cout<<0<<endl;
+	else
+	cout<<((n-1)/5)-((k-1)/5)<<endl;
+	}
+	return 0;
+}
