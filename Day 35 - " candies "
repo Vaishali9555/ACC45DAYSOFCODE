@@ -1,0 +1,19 @@
+# cook your dish here
+t=int(input())
+while t>0:
+    n=int(input())
+    l=list(map(int,input().split()))
+    s=list(set(l))
+    counter=1
+    for i in s:
+        
+        occur=l.count(i)
+        if occur>=3:
+            counter=0
+            break
+    if counter==0:
+        print("NO")
+    else:
+        print("YES")
+    t-=1
+      
