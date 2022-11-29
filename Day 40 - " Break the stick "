@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,x;
+	    cin>>n>>x;
+	   int  a=n-x;
+	    if(x>n)
+	    cout<<"no\n";
+	    else if(a%2==1 && x%2==0)
+	    cout<<"no\n";
+	    else 
+	    cout<<"yes\n";
+	}
+	return 0;
+}
